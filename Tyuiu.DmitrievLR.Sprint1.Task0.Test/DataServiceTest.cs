@@ -16,6 +16,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task0.Test
 
             var result = ds.Calculate();
 
+           
             Assert.AreEqual(12, result);
         }
     }

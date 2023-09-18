@@ -10,7 +10,7 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.DmitrievLR.Sprint1.Task0.Lib
 {
-    public class DataService : ISprint1Task0V5
+    public class DataService : ISprint1Task0V5 //Alt + Enter для упрощения создания функций
     {
         public double Calculate()
         {

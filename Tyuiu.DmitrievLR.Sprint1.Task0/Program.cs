@@ -34,9 +34,9 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task0
             Console.WriteLine("************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
             Console.WriteLine("************************************************************************");
-
+            
             Console.WriteLine(ds.Calculate());
-
+            //ВЫзываем из ссылки класс Calculate
 
 
 
