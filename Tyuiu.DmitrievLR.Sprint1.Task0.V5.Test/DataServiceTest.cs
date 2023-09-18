@@ -9,15 +9,16 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task0.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
             //как будто сокращаешь ссылку
 
             var result = ds.Calculate();
 
-           
+
             Assert.AreEqual(12, result);
         }
     }
 }
+
