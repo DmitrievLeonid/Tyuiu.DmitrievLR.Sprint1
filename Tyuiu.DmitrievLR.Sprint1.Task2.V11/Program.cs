@@ -52,6 +52,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task2.V11
 
             Console.WriteLine("Секунд прошло с начала суток: " + ds.ConvertHoursMinutesToSeconds(hours,minutes));
 
+
             Console.ReadKey();
         }
     }
