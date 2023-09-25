@@ -13,7 +13,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task2.V11.Lib
         public int ConvertHoursMinutesToSeconds(int hours, int minutes)
         {
             // Часы в секунды и минуты в секунды
-            int seconds = (hours * 3600 + minutes * 60 + 1) / 24;
+            int seconds = (hours * 3600) + (minutes * 60);
 
             return seconds;
         }
