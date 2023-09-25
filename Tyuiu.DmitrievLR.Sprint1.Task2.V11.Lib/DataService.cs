@@ -15,6 +15,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task2.V11.Lib
             // Часы в секунды и минуты в секунды
             int seconds = (hours * 3600) + (minutes * 60);
 
+
             return seconds;
         }
     }
