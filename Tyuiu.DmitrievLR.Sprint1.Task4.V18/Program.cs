@@ -48,7 +48,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task4.V18
             Console.WriteLine("**************************************************************************");
 
             Console.WriteLine(" Sqrt(3 + x)/(x*y)^2 = " + ds.Calculate(x,y));
-
+            
             Console.ReadKey();
         }
     }
